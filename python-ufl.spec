@@ -4,7 +4,7 @@
 Summary:	Unified Form Language for form-compilers
 Name:		python-%{module}
 Version:	2019.1.0
-Release:	2
+Release:	3
 License:	LGPLv3+ and GPLv2+
 Group:		Development/Python
 URL:		https://fenicsproject.org
@@ -13,7 +13,7 @@ Source0:	https://bitbucket.org/fenics-project/%{module}/downloads/%{module}-%{ve
 BuildArch:	noarch
 
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3dist(setuptools)
+BuildRequires:	python%{pyver}dist(setuptools)
 
 %description
 The Unified Form Language (UFL) is a domain specific language for
